@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Un quiz interactivo de matemáticas para practicar operaciones básicas.">
+  <title>Quiz de Matemáticas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz de Matemáticas</h1>
+    <div id="question">Pregunta:</div>
+    <label for="answer">Escribe tu respuesta:</label>
+    <input type="text" id="answer" placeholder="Tu respuesta">
+    <button id="respond">Responder</button>
+    <p id="result"></p>
+    <button id="new-question">Nueva Pregunta</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
